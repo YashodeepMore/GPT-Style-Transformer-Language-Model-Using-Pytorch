@@ -4,7 +4,7 @@ import ChatInput from "./components/ChatInput";
 import Loader from "./components/Loader";
 import StoryCard from "./components/StoryCard";
 
-const API_URL = import.meta.env.VITE_API_URL ?? "http://localhost:8000";
+const API_URL = import.meta.env.VITE_API_URL ?? "http://3.109.203.136:8000";
 
 function getErrorMessage(error) {
   const detail = error.response?.data?.detail;
